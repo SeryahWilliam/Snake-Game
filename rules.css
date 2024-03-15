@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%; /* to make sure it takes at least the height of the viewport */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px 20px;
+    max-width: 600px;
+    width: 100%; 
+    min-height: 80vh; 
+    margin: 20px auto;
+    box-sizing: border-box; 
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 100px; 
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px; 
+}
+
+ul {
+    text-align: left;
+    list-style: inside;
+    margin-bottom: 50px;
+}
+
+li {
+    margin: 10px 0;
+
+}
+
+.play-game-button {
+    position: absolute;
+    bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.play-game-button:hover {
+    background-color: #0056b3;
+}

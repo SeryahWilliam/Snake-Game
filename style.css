@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+canvas {
+    width: 70vh;
+    height: 70vh;
+    border: 10px solid rgb(180, 140, 112);
+    background-color: rgb(76, 119, 13);
+    display: grid;
+    
+}
+
+header {
+    text-align: center;
+    font-size: 5vmin;
+    letter-spacing: 0.5vmin;
+    color: rgb(61, 170, 133);
+    cursor: pointer;
+}
+
+#playAgainButton {
+    height: 30px;
+    width: 100px;
+    border-radius: 4vmin;
+    border: 0.2vmin solid green;
+    color:rgb(8, 8, 241);
+    background-color: lightgrey;
+}
+
+h1 {
+    color: red;
+    font-size: 5vmin;
+}
+
+#startButton {
+    padding: 25x 0px 30px 0px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
